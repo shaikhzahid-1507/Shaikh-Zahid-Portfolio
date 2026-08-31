@@ -1,0 +1,787 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Shaikh Zahid</title>
+<link rel="icon" href="./zahid.png?v=2" type="image/png">
+<link rel="shortcut icon" href="./zahid.png?v=2" type="image/png">
+<meta name="description" content="Shaikh Zahid — Computer Science engineer working across data, analytics and machine learning. Projects, experience and skills." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div class="progress-bar" id="progressBar" aria-hidden="true"></div>
+
+<!-- ============ NAV ============ -->
+<header class="nav" id="top">
+  <div class="nav-inner">
+    <a href="#top" class="nav-brand">Shaikh Zahid</a>
+    <nav class="nav-tabs" aria-label="Primary">
+      <a href="#about" data-tab>About</a>
+      <a href="#experience" data-tab>Experience</a>
+      <a href="#skills" data-tab>Skills</a>
+      <a href="#projects" data-tab>Projects</a>
+      <a href="#certifications" data-tab>Certifications</a>
+      <a href="#contact" data-tab>Contact</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <nav class="nav-tabs nav-tabs--mobile" id="mobileTabs" aria-label="Primary mobile">
+    <a href="#about" data-tab>About</a>
+    <a href="#experience" data-tab>Experience</a>
+    <a href="#skills" data-tab>Skills</a>
+    <a href="#projects" data-tab>Projects</a>
+    <a href="#certifications" data-tab>Certifications</a>
+    <a href="#contact" data-tab>Contact</a>
+  </nav>
+</header>
+
+<!-- ============ HERO ============ -->
+<section class="hero">
+  <div class="hero-inner">
+    <p class="hero-kicker">· Open to opportunities ·</p>
+    <h1 class="hero-title">
+      Shaikh Zahid<br>
+      builds with <span class="hero-rotator"><span id="rotatingWord">data</span></span>.
+    </h1>
+    <p class="hero-subtitle">
+      From intelligent analytics platforms to interactive dashboards, 
+      I build practical solutions that turn ideas into working products.
+    </p>
+    <div class="hero-actions">
+      <a href="#projects" class="btn btn--primary">View projects</a>
+      <a href="Resume.pdf" class="btn btn--ghost" download>Download resume</a>
+      <a href="#contact" class="btn btn--ghost">Get in touch</a>
+    </div>
+  </div>
+
+  <div class="stat-row" id="statRow">
+    <div class="stat-tile">
+      <span class="stat-value" data-count="8.5" data-decimals="1">0</span>
+      <span class="stat-label">CGPA</span>
+    </div>
+    <div class="stat-tile">
+      <span class="stat-value" data-count="2">0</span>
+      <span class="stat-label">Internships</span>
+    </div>
+    <div class="stat-tile">
+      <span class="stat-value" data-count="15" data-suffix="+">0</span>
+      <span class="stat-label">Total projects</span>
+    </div>
+    <div class="stat-tile">
+      <span class="stat-value" data-count="7000" data-suffix="+">0</span>
+      <span class="stat-label">Records analyzed</span>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SKILL MARQUEE ============ -->
+<div class="marquee" aria-hidden="true">
+  <div class="marquee-track">
+    <span>Python</span><span>·</span><span>SQL</span><span>·</span><span>Power BI</span><span>·</span>
+    <span>Machine Learning</span><span>·</span><span>Pandas</span><span>·</span><span>Tableau</span><span>·</span>
+    <span>Excel</span><span>·</span><span>Scikit-learn</span><span>·</span><span>MySQL</span><span>·</span>
+    <span>Streamlit</span><span>·</span><span>R</span><span>·</span>
+    <span>Python</span><span>·</span><span>SQL</span><span>·</span><span>Power BI</span><span>·</span>
+    <span>Machine Learning</span><span>·</span><span>Pandas</span><span>·</span><span>Tableau</span><span>·</span>
+    <span>Excel</span><span>·</span><span>Scikit-learn</span><span>·</span><span>MySQL</span><span>·</span>
+    <span>Streamlit</span><span>·</span><span>R</span><span>·</span>
+  </div>
+</div>
+
+<main>
+
+<!-- ============ ABOUT ============ -->
+<section class="section" id="about">
+  <div class="section-inner">
+    <span class="label">About</span>
+    <div class="about-grid">
+      <div class="about-avatar">
+        <div class="avatar-tile">
+          <img src="profile.jpg" alt="Portrait of Shaikh Zahid" loading="lazy" />
+        </div>
+        <div class="about-meta">
+          <div class="meta-row"><span class="meta-k">Education</span><span class="meta-v">B.E. Computer Science</span></div>
+          <div class="meta-row"><span class="meta-k">Graduating</span><span class="meta-v">2026</span></div>
+          <div class="meta-row"><span class="meta-k">Status</span><span class="meta-v"><span class="pulse-dot"></span>Open to work</span></div>
+        </div>
+      </div>
+      <div class="about-copy">
+        <h2 class="h2">Profile</h2>
+        <p>I'm a fresher 2026 passed out Computer Science &amp; Engineering student at Deogiri Institute of Engineering and Management Studies, Aurangabad, with a CGPA of 8.5. I like the full arc of a problem: pulling signal out of messy tables, framing the right question, building a model or dashboard around it, and presenting it so the next step is obvious.</p>
+        <p>That's played out across two data analyst internships and a few self-directed projects — a recommendation system, a churn-prediction platform, and a couple of AI-assisted analytics tools — built with Python, SQL, Power BI and scikit-learn.</p>
+        <p>I'm not wedded to one job title. I'm looking for roles in data analysis, business intelligence, or applied machine learning — wherever the work is figuring things out with data and helping someone act on it.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ EXPERIENCE ============ -->
+<section class="section section--alt" id="experience">
+  <div class="section-inner">
+    <span class="label">Experience</span>
+    <h2 class="h2">Where I've worked</h2>
+
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-marker"></div>
+        <div class="timeline-content">
+          <div class="tl-head">
+            <h3>Data Analyst Intern</h3>
+            <span class="tl-date">Jan 2026 — Apr 2026</span>
+          </div>
+          <p class="tl-company">Amdox Technologies · Aurangabad</p>
+          <ul class="tl-list">
+            <li>Developed Power BI dashboards to track and communicate business performance.</li>
+            <li>Analyzed business data using SQL, Python, and Excel to surface actionable insights.</li>
+          </ul>
+          <div class="tag-row">
+            <span class="tag">Power BI</span><span class="tag">SQL</span><span class="tag">Python</span><span class="tag">Excel</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-marker"></div>
+        <div class="timeline-content">
+          <div class="tl-head">
+            <h3>Data Analyst Intern</h3>
+            <span class="tl-date">Mar 2025 — May 2025</span>
+          </div>
+          <p class="tl-company">EdVedha · Aurangabad</p>
+          <ul class="tl-list">
+            <li>Applied Python and machine learning to build an e-commerce product recommendation system.</li>
+          </ul>
+          <div class="tag-row">
+            <span class="tag">Python</span><span class="tag">Machine Learning</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SKILLS ============ -->
+<section class="section" id="skills">
+  <div class="section-inner">
+    <span class="label">Skills</span>
+    <h2 class="h2">What I work with</h2>
+
+    <div class="skills-grid">
+      <div class="skills-group">
+        <h3>Languages</h3>
+        <div class="tag-row">
+          <span class="tag">Python</span><span class="tag">R</span><span class="tag">SQL</span>
+        </div>
+      </div>
+      <div class="skills-group">
+        <h3>Libraries</h3>
+        <div class="tag-row">
+          <span class="tag">Pandas</span><span class="tag">NumPy</span><span class="tag">Matplotlib</span><span class="tag">Scikit-learn</span>
+        </div>
+      </div>
+      <div class="skills-group">
+        <h3>Tools &amp; Platforms</h3>
+        <div class="tag-row">
+          <span class="tag">Git</span><span class="tag">GitHub</span><span class="tag">Power BI</span><span class="tag">Tableau</span><span class="tag">Excel</span><span class="tag">Jupyter</span><span class="tag">Google Colab</span><span class="tag">VS Code</span><span class="tag">MySQL Workbench</span><span class="tag">Anaconda</span>
+        </div>
+      </div>
+      <div class="skills-group">
+        <h3>Databases</h3>
+        <div class="tag-row">
+          <span class="tag">MySQL</span><span class="tag">Microsoft Azure</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PROJECTS ============ -->
+<section class="section section--alt" id="projects">
+  <div class="section-inner">
+    <span class="label">Projects</span>
+    <h2 class="h2">Things I've built</h2>
+
+    <div class="project-grid">
+
+      <article class="project-card">
+        <div class="project-card-head">
+          <span class="project-index">01</span>
+          <h3>Customer Retention Intelligence Platform</h3>
+        </div>
+        <p>Analyzed 7,000+ customer records with Python, SQL and EDA to identify key churn drivers, then built a logistic regression model to flag at-risk customers.</p>
+        <ul class="tl-list">
+          <li>8+ SQL queries built for ad-hoc business insight.</li>
+          <li>85%+ prediction accuracy on churn classification.</li>
+          <li>Interactive BI dashboard deployed on Streamlit.</li>
+        </ul>
+        <div class="tag-row">
+          <span class="tag">Python</span><span class="tag">SQL</span><span class="tag">Power BI</span><span class="tag">Streamlit</span><span class="tag">Scikit-learn</span>
+        </div>
+        <a href="https://customer-churn-retention-intelligence-platform.streamlit.app/" class="project-link" target="_blank" rel="noopener">View project ↗</a>
+      </article>
+
+      <article class="project-card">
+        <div class="project-card-head">
+          <span class="project-index">02</span>
+          <h3>AI Business Analyst</h3>
+        </div>
+        <p>An AI-powered analytics platform with automated profiling, KPI detection, and trend / anomaly analysis over structured datasets.</p>
+        <ul class="tl-list">
+          <li>6+ automated analytics capabilities.</li>
+          <li>5+ modular analysis components in a Streamlit app.</li>
+          <li>AI-generated visualizations and business insights.</li>
+        </ul>
+        <div class="tag-row">
+          <span class="tag">Python</span><span class="tag">Pandas</span><span class="tag">Streamlit</span><span class="tag">Plotly</span><span class="tag">AI/LLM</span>
+        </div>
+        <a href="https://ai-business-analyst-xrukfneappmabklwzlnr3nv.streamlit.app/" class="project-link" target="_blank" rel="noopener">View project ↗</a>
+      </article>
+
+      <article class="project-card">
+        <div class="project-card-head">
+          <span class="project-index">03</span>
+          <h3>AI Data Quality Platform</h3>
+        </div>
+        <p>A data quality platform that automatically scores datasets and recommends fixes across missing values, duplicates, types and outliers.</p>
+        <ul class="tl-list">
+          <li>6+ automated data quality checks.</li>
+          <li>Automated scoring and recommendation engine.</li>
+          <li>Interactive Streamlit interface for profiling.</li>
+        </ul>
+        <div class="tag-row">
+          <span class="tag">Python</span><span class="tag">Pandas</span><span class="tag">NumPy</span><span class="tag">Streamlit</span><span class="tag">Plotly</span>
+        </div>
+        <a href="https://ai-data-quality-platform-y28rqv6bmxdgskacnkwdwi.streamlit.app/" class="project-link" target="_blank" rel="noopener">View project ↗</a>
+      </article>
+
+    </div>
+
+    <div class="more-projects">
+      <p class="more-projects-label">More on <a href="https://github.com/shaikhzahid-1507?tab=repositories" target="_blank" rel="noopener">GitHub ↗</a></p>
+      <div class="repo-marquee">
+        <div class="repo-marquee-track">
+
+          <a class="repo-card" href="https://ai-sql-analyst-yndil92dz5khjbr2f5z2ss.streamlit.app/" target="_blank" rel="noopener">
+            <div class="repo-card-head"><h4>AI SQL Analyst</h4><span class="repo-lang"><span class="repo-lang-dot" style="background:#3572A5"></span>Python</span></div>
+            <p>AI-powered text-to-SQL agent for natural-language data analysis, safe SQL generation, and automated business insights.</p>
+          </a>
+          <a class="repo-card" href="https://github.com/shaikhzahid-1507/Executive-Dashboard" target="_blank" rel="noopener">
+            <div class="repo-card-head"><h4>Executive Dashboard</h4><span class="repo-lang"><span class="repo-lang-dot" style="background:#3572A5"></span>Python</span></div>
+            <p>Interactive executive dashboard for business performance analysis and AI-powered insights.</p>
+          </a>
+          <a class="repo-card" href="https://expense-manager-ae2vjpcfp5hguh9adp26sh.streamlit.app/" target="_blank" rel="noopener">
+            <div class="repo-card-head"><h4>Expense Manager</h4><span class="repo-lang"><span class="repo-lang-dot" style="background:#3572A5"></span>Python</span></div>
+            <p>Interactive expense management and analytics dashboard built with Python and Streamlit.</p>
+          </a>
+          <a class="repo-card" href="https://github.com/shaikhzahid-1507/AI-Chess-Tic-Tac-Toe" target="_blank" rel="noopener">
+            <div class="repo-card-head"><h4>AI Chess &amp; Tic-Tac-Toe</h4><span class="repo-lang"><span class="repo-lang-dot" style="background:#f1e05a"></span>JavaScript</span></div>
+            <p>AI-powered Chess and Tic-Tac-Toe web game with multiple difficulty levels and a responsive UI.</p>
+          </a>
+          <a class="repo-card" href="" target="_blank" rel="noopener">
+            <div class="repo-card-head"><h4>Election Dashboard</h4><span class="repo-lang"><span class="repo-lang-dot" style="background:#F2B705"></span>Power BI</span></div>
+            <p>Election analytics dashboard analyzing constituency results, party performance, and voting trends.</p>
+          </a>
+          <a class="repo-card" href="https://github.com/shaikhzahid-1507/fitness-tracker-dashboard" target="_blank" rel="noopener">
+            <div class="repo-card-head"><h4>Fitness Tracker Dashboard</h4><span class="repo-lang"><span class="repo-lang-dot" style="background:#F2B705"></span>Power BI</span></div>
+            <p>Dashboard analyzing workout performance, activity levels, calories, and fitness trends.</p>
+          </a>
+          <a class="repo-card" href="https://github.com/shaikhzahid-1507/Live-weather-Dashboard" target="_blank" rel="noopener">
+            <div class="repo-card-head"><h4>Live Weather Dashboard</h4><span class="repo-lang"><span class="repo-lang-dot" style="background:#F2B705"></span>Power BI</span></div>
+            <p>Real-time weather insights with forecasts, temperature trends, humidity, wind, and UV index.</p>
+          </a>
+          <a class="repo-card" href="https://github.com/shaikhzahid-1507/Washington-EV-Dashboard" target="_blank" rel="noopener">
+            <div class="repo-card-head"><h4>Washington EV Dashboard</h4><span class="repo-lang"><span class="repo-lang-dot" style="background:#F2B705"></span>Power BI</span></div>
+            <p>Visualizes EV adoption trends in Washington by model, manufacturer, and year.</p>
+          </a>
+          <a class="repo-card" href="https://github.com/shaikhzahid-1507/Netfilx-Dashboard" target="_blank" rel="noopener">
+            <div class="repo-card-head"><h4>Netflix Dashboard</h4><span class="repo-lang"><span class="repo-lang-dot" style="background:#F2B705"></span>Power BI</span></div>
+            <p>Dashboard exploring Netflix content trends, user engagement, and viewing habits.</p>
+          </a>
+          <a class="repo-card" href="https://github.com/shaikhzahid-1507/Car-s-model-Sales" target="_blank" rel="noopener">
+            <div class="repo-card-head"><h4>Car Model Sales</h4><span class="repo-lang"><span class="repo-lang-dot" style="background:#F2B705"></span>Power BI</span></div>
+            <p>Analysis of car sales performance by model, tracking trends and top-performing models.</p>
+          </a>
+          <a class="repo-card" href="https://github.com/shaikhzahid-1507/Bike-top-10-products" target="_blank" rel="noopener">
+            <div class="repo-card-head"><h4>Bike Top 10 Products</h4><span class="repo-lang"><span class="repo-lang-dot" style="background:#E97627"></span>Tableau</span></div>
+            <p>Tableau workbook visualizing top-performing bike products and sales trends.</p>
+          </a>
+
+          <a class="repo-card" href="https://ai-sql-analyst-yndil92dz5khjbr2f5z2ss.streamlit.app/" target="_blank" rel="noopener" aria-hidden="true" tabindex="-1">
+            <div class="repo-card-head"><h4>AI SQL Analyst</h4><span class="repo-lang"><span class="repo-lang-dot" style="background:#3572A5"></span>Python</span></div>
+            <p>AI-powered text-to-SQL agent for natural-language data analysis, safe SQL generation, and automated business insights.</p>
+          </a>
+          <a class="repo-card" href="https://github.com/shaikhzahid-1507/Executive-Dashboard" target="_blank" rel="noopener" aria-hidden="true" tabindex="-1">
+            <div class="repo-card-head"><h4>Executive Dashboard</h4><span class="repo-lang"><span class="repo-lang-dot" style="background:#3572A5"></span>Python</span></div>
+            <p>Interactive executive dashboard for business performance analysis and AI-powered insights.</p>
+          </a>
+          <a class="repo-card" href="https://expense-manager-ae2vjpcfp5hguh9adp26sh.streamlit.app/" target="_blank" rel="noopener" aria-hidden="true" tabindex="-1">
+            <div class="repo-card-head"><h4>Expense Manager</h4><span class="repo-lang"><span class="repo-lang-dot" style="background:#3572A5"></span>Python</span></div>
+            <p>Interactive expense management and analytics dashboard built with Python and Streamlit.</p>
+          </a>
+          <a class="repo-card" href="https://github.com/shaikhzahid-1507/AI-Chess-Tic-Tac-Toe" target="_blank" rel="noopener" aria-hidden="true" tabindex="-1">
+            <div class="repo-card-head"><h4>AI Chess &amp; Tic-Tac-Toe</h4><span class="repo-lang"><span class="repo-lang-dot" style="background:#f1e05a"></span>JavaScript</span></div>
+            <p>AI-powered Chess and Tic-Tac-Toe web game with multiple difficulty levels and a responsive UI.</p>
+          </a>
+          <a class="repo-card" href="https://github.com/shaikhzahid-1507/election-dashboard" target="_blank" rel="noopener" aria-hidden="true" tabindex="-1">
+            <div class="repo-card-head"><h4>Election Dashboard</h4><span class="repo-lang"><span class="repo-lang-dot" style="background:#F2B705"></span>Power BI</span></div>
+            <p>Election analytics dashboard analyzing constituency results, party performance, and voting trends.</p>
+          </a>
+          <a class="repo-card" href="https://github.com/shaikhzahid-1507/fitness-tracker-dashboard" target="_blank" rel="noopener" aria-hidden="true" tabindex="-1">
+            <div class="repo-card-head"><h4>Fitness Tracker Dashboard</h4><span class="repo-lang"><span class="repo-lang-dot" style="background:#F2B705"></span>Power BI</span></div>
+            <p>Dashboard analyzing workout performance, activity levels, calories, and fitness trends.</p>
+          </a>
+          <a class="repo-card" href="https://github.com/shaikhzahid-1507/Live-weather-Dashboard" target="_blank" rel="noopener" aria-hidden="true" tabindex="-1">
+            <div class="repo-card-head"><h4>Live Weather Dashboard</h4><span class="repo-lang"><span class="repo-lang-dot" style="background:#F2B705"></span>Power BI</span></div>
+            <p>Real-time weather insights with forecasts, temperature trends, humidity, wind, and UV index.</p>
+          </a>
+          <a class="repo-card" href="https://github.com/shaikhzahid-1507/Washington-EV-Dashboard" target="_blank" rel="noopener" aria-hidden="true" tabindex="-1">
+            <div class="repo-card-head"><h4>Washington EV Dashboard</h4><span class="repo-lang"><span class="repo-lang-dot" style="background:#F2B705"></span>Power BI</span></div>
+            <p>Visualizes EV adoption trends in Washington by model, manufacturer, and year.</p>
+          </a>
+          <a class="repo-card" href="https://github.com/shaikhzahid-1507/Netfilx-Dashboard" target="_blank" rel="noopener" aria-hidden="true" tabindex="-1">
+            <div class="repo-card-head"><h4>Netflix Dashboard</h4><span class="repo-lang"><span class="repo-lang-dot" style="background:#F2B705"></span>Power BI</span></div>
+            <p>Dashboard exploring Netflix content trends, user engagement, and viewing habits.</p>
+          </a>
+          <a class="repo-card" href="https://github.com/shaikhzahid-1507/Car-s-model-Sales" target="_blank" rel="noopener" aria-hidden="true" tabindex="-1">
+            <div class="repo-card-head"><h4>Car Model Sales</h4><span class="repo-lang"><span class="repo-lang-dot" style="background:#F2B705"></span>Power BI</span></div>
+            <p>Analysis of car sales performance by model, tracking trends and top-performing models.</p>
+          </a>
+          <a class="repo-card" href="https://github.com/shaikhzahid-1507/Bike-top-10-products" target="_blank" rel="noopener" aria-hidden="true" tabindex="-1">
+            <div class="repo-card-head"><h4>Bike Top 10 Products</h4><span class="repo-lang"><span class="repo-lang-dot" style="background:#E97627"></span>Tableau</span></div>
+            <p>Tableau workbook visualizing top-performing bike products and sales trends.</p>
+          </a>
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ============ CERTIFICATIONS ============ -->
+<section class="section" id="certifications">
+  <div class="section-inner">
+
+    <span class="label">Certifications</span>
+    <h2 class="h2">Credentials</h2>
+
+    <div class="cert-grid">
+
+      <!-- ================= CERTIFICATE 01 ================= -->
+      <a
+        href="Certificate/Data Analysis.pdf"
+        class="cert-card"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Open Data Analysis certificate"
+      >
+        <span class="cert-icon">◆</span>
+
+        <div class="cert-content">
+          <h3>
+            Data Analysis — SQL, Tableau, Power BI &amp; Excel
+          </h3>
+
+          <p class="cert-issuer">
+            Udemy
+          </p>
+        </div>
+
+        <span class="cert-arrow">↗</span>
+      </a>
+
+
+      <!-- ================= CERTIFICATE 02 ================= -->
+      <a
+        href="Certificate/ML.pdf"
+        class="cert-card"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Open Machine Learning certificate"
+      >
+        <span class="cert-icon">◆</span>
+
+        <div class="cert-content">
+          <h3>
+            Machine Learning — Fundamentals of Python Machine Learning
+          </h3>
+
+          <p class="cert-issuer">
+            Udemy
+          </p>
+        </div>
+
+        <span class="cert-arrow">↗</span>
+      </a>
+
+
+      <!-- ================= CERTIFICATE 03 ================= -->
+      <a
+        href="Certificate/Python.pdf"
+        class="cert-card"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Open Python certificate"
+      >
+        <span class="cert-icon">◆</span>
+
+        <div class="cert-content">
+          <h3>
+            The Complete Python Bootcamp From Zero to Master
+          </h3>
+
+          <p class="cert-issuer">
+            Udemy
+          </p>
+        </div>
+
+        <span class="cert-arrow">↗</span>
+      </a>
+
+
+      <!-- ================= CERTIFICATE 04 ================= -->
+      <a
+        href="Certificate/microsoft excel.pdf"
+        class="cert-card"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Open Microsoft Excel certificate"
+      >
+        <span class="cert-icon">◆</span>
+
+        <div class="cert-content">
+          <h3>
+            Preparing Data for Analysis with Microsoft Excel
+          </h3>
+
+          <p class="cert-issuer">
+            Microsoft · Coursera
+          </p>
+        </div>
+
+        <span class="cert-arrow">↗</span>
+      </a>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- =========================================================
+     CERTIFICATIONS CSS
+     ========================================================= -->
+
+<style>
+
+/* =========================================================
+   CERTIFICATION GRID
+   ========================================================= */
+
+.cert-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.25rem;
+  margin-top: 2.5rem;
+}
+
+
+/* =========================================================
+   CERTIFICATION CARD
+   ========================================================= */
+
+.cert-card {
+  position: relative;
+
+  display: flex;
+  align-items: flex-start;
+  gap: 1.25rem;
+
+  padding: 1.6rem;
+
+  color: inherit;
+  text-decoration: none;
+
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 14px;
+
+  background: rgba(255, 255, 255, 0.025);
+
+  transition:
+    transform 0.3s ease,
+    border-color 0.3s ease,
+    background 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+
+/* =========================================================
+   HOVER EFFECT
+   ========================================================= */
+
+.cert-card:hover {
+  transform: translateY(-5px);
+
+  border-color: rgba(100, 180, 230, 0.5);
+
+  background: rgba(255, 255, 255, 0.045);
+
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.18);
+}
+
+
+/* =========================================================
+   CERTIFICATE ICON
+   ========================================================= */
+
+.cert-icon {
+  flex-shrink: 0;
+
+  width: 40px;
+  height: 40px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border: 1px solid rgba(100, 180, 230, 0.35);
+  border-radius: 50%;
+
+  color: #63b3ed;
+
+  font-size: 0.8rem;
+
+  transition:
+    transform 0.3s ease,
+    border-color 0.3s ease;
+}
+
+
+.cert-card:hover .cert-icon {
+  transform: rotate(45deg);
+
+  border-color: rgba(100, 180, 230, 0.7);
+}
+
+
+/* =========================================================
+   CERTIFICATE CONTENT
+   ========================================================= */
+
+.cert-content {
+  flex: 1;
+  padding-right: 1.5rem;
+}
+
+
+.cert-content h3 {
+  margin: 0 0 0.5rem 0;
+
+  font-size: 1rem;
+  line-height: 1.5;
+
+  font-weight: 600;
+}
+
+
+.cert-issuer {
+  margin: 0;
+
+  font-size: 0.85rem;
+
+  opacity: 0.6;
+}
+
+
+/* =========================================================
+   ARROW
+   ========================================================= */
+
+.cert-arrow {
+  position: absolute;
+
+  top: 1.4rem;
+  right: 1.4rem;
+
+  font-size: 1.1rem;
+
+  opacity: 0.45;
+
+  transition:
+    transform 0.3s ease,
+    opacity 0.3s ease;
+}
+
+
+.cert-card:hover .cert-arrow {
+  transform: translate(4px, -4px);
+
+  opacity: 1;
+}
+
+
+/* =========================================================
+   FOCUS ACCESSIBILITY
+   ========================================================= */
+
+.cert-card:focus-visible {
+  outline: 2px solid #63b3ed;
+  outline-offset: 4px;
+}
+
+
+/* =========================================================
+   TABLET
+   ========================================================= */
+
+@media (max-width: 800px) {
+
+  .cert-grid {
+    grid-template-columns: 1fr;
+  }
+
+}
+
+
+/* =========================================================
+   MOBILE
+   ========================================================= */
+
+@media (max-width: 500px) {
+
+  .cert-grid {
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+
+
+  .cert-card {
+    padding: 1.25rem;
+    gap: 1rem;
+  }
+
+
+  .cert-icon {
+    width: 34px;
+    height: 34px;
+    font-size: 0.7rem;
+  }
+
+
+  .cert-content {
+    padding-right: 1.2rem;
+  }
+
+
+  .cert-content h3 {
+    font-size: 0.92rem;
+    line-height: 1.45;
+  }
+
+
+  .cert-issuer {
+    font-size: 0.8rem;
+  }
+
+
+  .cert-arrow {
+    top: 1.15rem;
+    right: 1.15rem;
+  }
+
+}
+
+</style>
+<!-- ============ CONTACT ============ -->
+<section class="section section--alt" id="contact">
+  <div class="section-inner">
+    <span class="label">Contact</span>
+    <h2 class="h2">Let's talk</h2>
+    <p class="contact-intro">Open to data analyst, BI and applied ML roles — internships or full-time. Reach out directly or drop a message below.</p>
+
+    <div class="contact-grid">
+      <div class="contact-links">
+        <a class="contact-link" href="mailto:shaikhzahiduddin@gmail.com">
+          <span class="contact-k">Email</span>
+          <span class="contact-v">shaikhzahiduddin@gmail.com</span>
+        </a>
+        <a class="contact-link" href="tel:+917350195210">
+          <span class="contact-k">Phone</span>
+          <span class="contact-v">+91 73501-95210</span>
+        </a>
+        <a class="contact-link" href="https://www.linkedin.com/in/shaikh-zahid-3853b2276/" target="_blank" rel="noopener">
+          <span class="contact-k">LinkedIn</span>
+          <span class="contact-v">shaikh-zahid-3853b2276</span>
+        </a>
+        <a class="contact-link" href="https://github.com/shaikhzahid-1507" target="_blank" rel="noopener">
+          <span class="contact-k">GitHub</span>
+          <span class="contact-v">shaikhzahid-1507</span>
+        </a>
+        <a class="contact-link" href="https://www.hackerrank.com/profile/shaikhzahiduddin" target="_blank" rel="noopener">
+          <span class="contact-k">HackerRank</span>
+          <span class="contact-v">shaikhzahiduddin</span>
+        </a>
+        <span class="contact-link contact-link--static">
+          <span class="contact-k">Location</span>
+          <span class="contact-v">Aurangabad, Maharashtra, India</span>
+        </span>
+      </div>
+
+      <form class="contact-form" id="contactForm">
+        <label class="field">
+          <span>Name</span>
+          <input type="text" name="name" required />
+        </label>
+        <label class="field">
+          <span>Email</span>
+          <input type="email" name="email" required />
+        </label>
+        <label class="field">
+          <span>Message</span>
+          <textarea name="message" rows="4" required></textarea>
+        </label>
+        <button type="submit" class="btn btn--primary btn--block">Send message</button>
+        <p class="form-note" id="formNote">This opens your email client with the message pre-filled.</p>
+      </form>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <span>© <span id="year"></span> Shaikh Zahid.</span>
+
+    <div class="footer-socials" aria-label="Social links">
+      <a href="https://github.com/shaikhzahid-1507" target="_blank" rel="noopener" aria-label="GitHub profile" title="GitHub">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true">
+          <path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.57.1.78-.25.78-.55 0-.27-.01-1.16-.02-2.11-3.2.7-3.88-1.36-3.88-1.36-.52-1.33-1.28-1.68-1.28-1.68-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.03 1.75 2.69 1.25 3.35.96.1-.75.4-1.25.73-1.54-2.55-.29-5.24-1.28-5.24-5.68 0-1.25.45-2.28 1.18-3.08-.12-.29-.51-1.46.11-3.04 0 0 .96-.31 3.15 1.18a10.9 10.9 0 0 1 2.87-.39c.97.01 1.95.13 2.87.39 2.19-1.49 3.15-1.18 3.15-1.18.62 1.58.23 2.75.11 3.04.73.8 1.18 1.83 1.18 3.08 0 4.41-2.69 5.38-5.25 5.67.41.36.78 1.07.78 2.15 0 1.55-.01 2.8-.01 3.18 0 .3.2.66.79.55A10.51 10.51 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5Z"/>
+        </svg>
+      </a>
+      <a href="https://www.linkedin.com/in/shaikh-zahid-3853b2276/" target="_blank" rel="noopener" aria-label="LinkedIn profile" title="LinkedIn">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true">
+          <path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.34V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.61 0 4.28 2.38 4.28 5.47v6.27ZM5.34 7.43a2.07 2.07 0 1 1 0-4.13 2.07 2.07 0 0 1 0 4.13ZM7.12 20.45H3.56V9h3.56v11.45ZM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0Z"/>
+        </svg>
+      </a>
+      <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank" rel="noopener" aria-label="Open Gmail inbox" title="Email">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <rect x="2" y="4" width="20" height="16" rx="2"/>
+          <path d="m22 6-10 7L2 6"/>
+        </svg>
+      </a>
+    </div>
+
+    <a href="#top">Back to top ↑</a>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
